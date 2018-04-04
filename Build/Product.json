@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "BravoLadder",
+"dataUrl": "Product.data.unityweb",
+"asmCodeUrl": "Product.asm.code.unityweb",
+"asmMemoryUrl": "Product.asm.memory.unityweb",
+"asmFrameworkUrl": "Product.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
