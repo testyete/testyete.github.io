@@ -6,22 +6,10 @@
     <title>Unity WebGL Player | BravoLadder</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-	<style>
-     html {
-         overflow: hidden;
-     }
- 
-     #gameContainer {
-         height: 100%;
-         width: 100%;
-     }
-     </style>
-	 <!-- Nothing! -->
-	 
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Product.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Html5.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
